@@ -1,0 +1,18 @@
+[project]
+name = "immich-memory-emails"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.10"
+dependencies = [
+    "jinja2>=3.1.6",
+    "pillow>=11.3.0",
+    "pillow-heif>=1.1.0",
+    "python-dotenv>=1.1.1",
+    "requests>=2.32.5",
+]
+
+[dependency-groups]
+dev = [
+    "ipdb>=0.13.13",
+    "ipython>=8.37.0",
+]
